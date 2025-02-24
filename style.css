@@ -86,3 +86,26 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+/* Fix horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+/* Ensure containers don't exceed screen width */
+.container,
+.container-fluid {
+  max-width: 100%;
+}
+
+/* Responsive typography for smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
